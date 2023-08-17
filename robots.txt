@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://robincourant.github.ioinfo/sitemap.xml
+Sitemap: https://robincourant.github.iotest1/sitemap.xml
