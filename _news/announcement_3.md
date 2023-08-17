@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-11-01 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I have started my PhD in the [VISTA team](https://www.lix.polytechnique.fr/vista/) at [Ecole Polytechnique](https://www.polytechnique.edu/en)!

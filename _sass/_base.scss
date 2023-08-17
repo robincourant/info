@@ -24,6 +24,7 @@ hr {
 }
 
 table {
+
   td,
   th {
     font-size: 1rem;
@@ -545,6 +546,37 @@ footer.sticky-bottom {
   }
 }
 
+// News
+
+.news {
+  .badge {
+    background-color: #5b5ec9;
+    /* You can change the badge background color */
+    color: #ffffff;
+    /* You can change the badge text color */
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    /* Adjust the border-radius to control the badge shape */
+  }
+}
+
+// Misc
+
+.misc {
+  .badge {
+    background-color: #5b5ec9;
+    /* You can change the badge background color */
+    color: #ffffff;
+    /* You can change the badge text color */
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    /* Adjust the border-radius to control the badge shape */
+  }
+}
 
 // Publications
 
@@ -619,6 +651,11 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
 
+      .comment {
+        color: red;
+        font-weight: bolder;
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
@@ -665,6 +702,7 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: $black-color;
@@ -911,7 +949,8 @@ progress::-moz-progress-bar {
     }
   }
 
-  .dropdown-item.active, .dropdown-item:active {
+  .dropdown-item.active,
+  .dropdown-item:active {
     background-color: var(--global-hover-color);
     color: var(--global-hover-text-color) !important;
 
@@ -953,6 +992,7 @@ nav[data-toggle="toc"] {
 
 /* small screens */
 @media (max-width: 576px) {
+
   /* override stickyness so that the navigation does not follow scrolling */
   nav[data-toggle="toc"] {
     visibility: hidden;
@@ -971,7 +1011,12 @@ nav[data-toggle="toc"] {
       color: var(--global-tip-block-text);
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: var(--global-tip-block-title);
     }
   }
@@ -984,7 +1029,12 @@ nav[data-toggle="toc"] {
       color: var(--global-warning-block-text);
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: var(--global-warning-block-title);
     }
   }
@@ -997,7 +1047,12 @@ nav[data-toggle="toc"] {
       color: var(--global-danger-block-text);
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       color: var(--global-danger-block-title);
     }
   }
