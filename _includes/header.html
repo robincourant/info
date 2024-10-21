@@ -50,7 +50,7 @@
           {% if site.blog_nav_title %}
           <!-- Blog -->
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
+            <a class="nav-link" href="{{ '/blog/' | relative_url }}" target="_blank">{{ site.blog_nav_title }}
               {%- if page.url contains 'blog' -%}
               <span class="sr-only">(current)</span>
               {%- endif -%}
@@ -82,7 +82,7 @@
           </li>
           {%- else %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-            <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
+            <a class="nav-link" href="{{ p.url | relative_url }}" target="_blank">{{ p.title }}
               {%- if page.title == p.title -%}
               <span class="sr-only">(current)</span>
               {%- endif -%}
