@@ -2,5 +2,5 @@
 layout: page
 title: CV
 nav: true
-permalink: robin-courant.pdf
+permalink: assets/pdf/robin-courant.pdf
 ---
